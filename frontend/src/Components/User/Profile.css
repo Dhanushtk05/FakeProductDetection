@@ -1,0 +1,66 @@
+#profilepage{
+    background: rgb(11, 25, 1);
+    min-height: 100vh;
+    color: white;
+    animation: profpage 2s ease-out;
+}
+
+@keyframes profpage {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+#prohead{
+  margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#prohead > h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+.avatar-profile {
+    height: 16rem;
+    width: 16rem;
+    margin-left: 10%;
+    margin-top: 19.5% !important;
+  }
+  
+  @media screen and (max-width:600px) {
+
+    .avatar-profile{
+        margin-left: -10%;
+        margin-top: 0%;
+    }
+    
+  }
+  .user-info h4 {
+    font-weight: 800;
+    color: grey;
+    margin-top: 2rem;
+  }
+  
+  .user-info p {
+    font-size: 1.1rem;
+  }
+  
+  #edit_profile {
+    background-color:white;
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #change_pass{
+    background-color: white;
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 5%;
+  }
+
+  .profilefoot{
+    margin-top: 68px;
+  }

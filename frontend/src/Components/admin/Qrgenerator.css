@@ -1,0 +1,17 @@
+.product_qr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product_qr > h1{
+    padding: 50px;
+}
+
+.qrfooter{
+    margin-top: 115px;
+}

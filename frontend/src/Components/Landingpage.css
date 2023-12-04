@@ -1,0 +1,194 @@
+.load{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    background-color: white;
+}
+
+.loadheader{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(18, 18, 18, 0.5),rgba(18, 18, 18, 0.5)), url('../../public/image_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lhead{
+    width: 100%;
+    color: white;
+    min-height: fit-content;
+    top: 0;
+    z-index: 3000;
+    padding: 1%;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(rgba(18,18,18,0.5), rgba(18,18,18,0.5));}
+
+.lhead>img{
+    flex: 0.02;
+    margin-left: -30%;
+    cursor: pointer;
+}
+
+.list{
+    flex :0.3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: -30%;
+}
+
+.list>a{
+    text-decoration: none;
+    color: white;
+}
+.list >a> li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list>a>li:hover{
+    color: darkgray;
+}
+
+.title{
+    position: relative;
+    width: 100%;
+    height: 88.75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titletext{
+    position: absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5vw;
+    top: 17%;
+    right:25%;
+    left: 25%;
+}
+
+#credentials{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    top:75%;
+    right: 43%;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+
+#btn1{
+    color: white;
+    background: transparent;
+    font-size: 25px;
+    padding: 3px 25px;
+    border: 1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+#btn2{
+    color: white;
+    cursor: pointer;
+    background: #1a57a5;
+    border: none;
+    font-size: 25px;
+    padding: 4px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn1:hover{
+    background: rgba(245, 245, 245, 0.452);
+}
+#btn2:hover{
+    background: #1a56a58e;
+}
+
+.abt{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.serv1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 5%;
+}
+.serv1 > img{
+    margin-left: 10%;
+}
+.serv1exp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-right: 18%;
+}
+
+.serv2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 5%;
+}
+
+.serv2exp{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    margin-right: 10%;
+}
+
+.Contacts{
+    background: linear-gradient(rgba(18, 18, 18, 0.5),rgba(18, 18, 18, 0.5)), url('../../public/img3.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Contacts >button{
+    background-color: darkgoldenrod;
+    font-size: larger;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.contactpage{
+    position: relative;
+    margin-top:17px;
+}
+.contactpage >h3>span{
+    color: orangered;
+}
+.contactpage >h3>a{
+    text-decoration: none;
+    color: white;
+}
+

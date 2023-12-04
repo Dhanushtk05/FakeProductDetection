@@ -1,0 +1,52 @@
+.productContainer{
+    position: relative;
+    width: 100%;
+    min-height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(18, 18, 18, 0.5),rgba(18, 18, 18, 0.5)), url('../../public/images/backimag.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background: orange;
+    padding: 10px 44px;
+}
+
+.product-card{
+    background:transparent;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.verify-btn{
+
+    color: white;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background: orange;
+    padding: 10px 44px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.review{
+    color: orange;
+    font-size: larger;
+}
+
